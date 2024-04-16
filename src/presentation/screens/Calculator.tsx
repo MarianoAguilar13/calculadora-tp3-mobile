@@ -1,6 +1,10 @@
 import React, {useState} from 'react';
 import {View, Text, StyleSheet, Button, Alert} from 'react-native';
 
+/* El View es como el div de html, es para hacer contenedores*/
+
+/* Los text son como los p o los h en html, son para mostrar texto */
+
 const Calculator = () => {
   const [result, setResult] = useState('0');
 
