@@ -26,8 +26,6 @@ export const App = () => {
         icon: props => <IonIcon {...props} />,
       }}>
       <SafeAreaView style={{flex: 1}}>
-        {/* <HelloWorldScreen name='Fernando Herrera' /> */}
-        {/* <CounterScreen /> */}
         <Calculator />
       </SafeAreaView>
     </PaperProvider>
